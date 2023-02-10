@@ -13,26 +13,32 @@
     </header>
     <main>
         <h2>Preencha os dados conforme indicado</h2>
+  
+        <p>Nome da turma (ex: 1° Colecial B; 7° serie A)</p>
+        <input type="text" name="nturma" id="nturma">
 
+        <p>Informe os dados abaixo e clique em "calcular nota"</p>
+        <P>Obs: informar nota entre 0 e 10; caso não tenha nota de trabalho/avaliação na discipla, deixe o campo em branco</P>
+        <span>Quantidade de alunos: </span> <input type="number" name="qaluno" id="qaluno"><br><br>
+        <span>Nome do aluno:</span> <input type="text" name="naluno" id="naluno">
+        <span>Avaliação 1:</span> <input type="number" name="a1" id="a1">
+        <span>Avaliação 2:</span> <input type="number" name="a2" id="a2">
+        <span>Trabalho 1:</span> <input type="number" name="t1" id="t1">
+        <span>Trabalho 2:</span> <input type="number" name="t2" id="t2">
 
+        <input type="button" value="Calcular" onclick="Calcular()">
         
-        <p>Quantidade de alunos na sala</p>
-        <input type="number" name="qalunos" id="qalunos"><br>
-
-        <p>Qual o nome do aluno</p>
-        <input type="text" name="" id="">
-
-        <P></P>
-        
-
-
-
     </main>
+    <script src="mediadaclasse.js"></script>
+
+    <p id="res"> </p>
 
     <footer>
         <p>Desenvolvido por João Santos</p>
     </footer>
 
-<script src="mediadaclasse.js"></script>
+
+
+
 </body>
 </html>
